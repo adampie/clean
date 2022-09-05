@@ -1,0 +1,13 @@
+name = "Clean"
+license = "MIT"
+licenselink = "https://github.com/adampie/clean/blob/main/LICENSE"
+description = "A clean Hugo theme"
+homepage = "https://github.com/adampie/clean"
+
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Adam Pietrzycki"
+  homepage = "https://adampie.dev"
