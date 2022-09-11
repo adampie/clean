@@ -11,3 +11,10 @@ min_version = "0.41.0"
 [author]
   name = "Adam Pietrzycki"
   homepage = "https://adampie.dev"
+
+[params.social]
+  github = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  linkedin = ""

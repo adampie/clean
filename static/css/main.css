@@ -3,5 +3,17 @@ html {
 }
 
 body {
-    width: 100%;
+    /* background-color: blue; */
+}
+
+article {
+    /* background-color: yellow; */
+}
+
+footer {
+    /* background-color: red; */
+}
+
+footer .social {
+    text-align: center;
 }

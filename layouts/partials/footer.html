@@ -1,2 +1,9 @@
 <footer>
+    <div class="social">
+        {{ if .Site.Params.social.github }}<a href="{{ .Site.Params.social.github }}" target="_blank">GitHub</a>{{ end }}
+        {{ if .Site.Params.social.twitter }}<a href="{{ .Site.Params.social.twitter }}" target="_blank">Twitter</a>{{ end }}
+        {{ if .Site.Params.social.instagram }}<a href="{{ .Site.Params.social.instagram }}" target="_blank">Instagram</a>{{ end }}
+        {{ if .Site.Params.social.youtube }}<a href="{{ .Site.Params.social.youtube }}" target="_blank">YouTube</a>{{ end }}
+        {{ if .Site.Params.social.linkedin }}<a href="{{ .Site.Params.social.linkedin }}" target="_blank">Linkedin</a>{{ end }}
+    </div>
 </footer>
