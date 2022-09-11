@@ -1,7 +1,7 @@
 <ul>
 {{ range .Pages }}
     <li>
-        <a href="{{.Permalink}}" title="{{ .Title }}">{{ .Title }}</a> {{ .Date | time.Format ":date_medium" }} 
+        <a href="{{.Permalink}}" title="{{ .Title }}">{{ .Title }}</a>{{ .Date | time.Format ":date_medium" }} 
     </li>
 {{ end }}
 </ul>
